@@ -1,0 +1,9 @@
+name: Terraform Check
+author: James Socol
+description: Lints and validates Terraform files
+runs:
+  using: docker
+  image: Dockerfile
+branding:
+  icon: check
+  color: green
